@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* this is a header and banner conatainer part start */
+
+.main-container {
+    background: url(image/banner.jpg);
+    height: 750px;
+}
+
+.overlay {
+    background-color: #40464e;
+    height: 750px;
+    opacity: 0.8;
+
+}
+
+.container {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: 250px;
+    font-size: 70px;
+    color: #ffffff;
+
+}
+
+.container h1 span {
+    color: #f7600e;
+}
+
+.container p {
+    padding-top: 18px;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.head {
+    float: left;
+    padding-top: 100px;
+}
+
+.hire-us {
+    padding-top: 80px;
+
+
+}
+
+.hire-us a {
+    text-decoration: none;
+    padding: 20px 80px;
+    background-color: #f7600e;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+.arrow-down {
+    padding-top: 100px;
+
+}
+
+.arrow-down a {
+    color: #ffffff;
+    font-size: 30px;
+
+}
+
+.arrow-down a i {}
+
+/* this is a head and banner container end */
+
+.main-container1 {
+    padding-bottom: 60px;
+    background-color: #ffffff;
+
+}
+
+.container1 {
+    text-align: center;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container1 h1 {
+    padding-top: 100px;
+    color: #3b434c;
+    font-size: 35px;
+
+}
+
+.container1 h1 span {
+    color: #f7600e;
+}
+
+.container1 p {
+    padding-bottom: 100px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    width: 450px;
+    margin: 0 auto;
+    color: #3b434c;
+    opacity: 0.8;
+
+
+}
+
+.picture-container {}
+
+.picture1 {
+    width: 33%;
+    float: left;
+    height: 415px;
+
+}
+
+.show-more {}
+
+.show-more a {
+    text-decoration: none;
+    border: 2px solid #d8d9db;
+    padding: 20px 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color:black;
+    font-weight:bold;
+}
+
+.container-ourteam h1 {
+    padding-top: 100px;
+    color: #3b434c;
+    font-size: 35px;
+}
+
+.container-ourteam h1 span {
+    color: #f7600e;
+}
+
+.container-ourteam p {
+    padding-bottom: 100px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    width: 490px;
+    margin: 0 auto;
+    color: #3b434c;
+    opacity: 0.8;
+}
+
+.container-picture4 {}
+
+.picture4 {
+    width: 25%;
+    float: left;
+    height: 500px;
+}
+
+.picture4 h2 {
+    padding-top: 30px;
+    font-size: 25px;
+    color: #3b434c;
+    margin-right: 65px;
+
+
+
+}
+
+.picture4 p {
+    width: 277px;
+    margin-right: 65px;
+}
+
+.image-all {
+    width: 230px;
+    height: 280px;
+}
+
+.image-all img {
+    width: 230px;
+    height: 280px;
+
+}
+
+.image-2 {
+    width: 230px;
+    height: 280px;
+
+}
+
+.image-2 img {
+    width: 230px;
+    height: 280px;
+
+}
+
+.image-2 img:hover {
+    width: 250px;
+    height: 300px;
+    border-bottom: 5px solid #f7600e;
+}
+
+.image-all img:hover {
+    width: 250px;
+    height: 300px;
+    border-bottom: 5px solid #f7600e;
+
+}
+
+/* this is maine conten end */
+
+/* this is a banner footer part start */
+
+.main-container2 {
+    background: url('image/footer-banner.jpg');
+    height: 800px;
+}
+
+.container2 {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center
+}
+
+.container2 h1 {
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.container2 h1 span {
+    color: #f7600e;
+}
+
+.container2 p {
+    font-size: 16px;
+    color: #ffffff;
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+
+.form {
+    padding-top: 80px;
+}
+
+.form input {
+    width: 380px;
+    height: 50px;
+    border-radius: 15px;
+
+}
+
+.form input[type="text"] {
+    margin-left: 20px;
+}
+
+.form input[type="message"] {
+    margin-top: 30px;
+    width: 790px;
+    height: 200px;
+}
+
+.form-hireus {
+    padding-top: 30px;
+
+}
+
+.form-hireus button {
+    float: left;
+    background-color: #f7600e;
+    padding: 25px 100px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 105px;
+}
+
+.form-hireus button a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-banneroverley {
+    background-color: #31383e;
+    opacity: 0.8;
+    height: 800px;
+
+}
+
+/* this is a footer banner end */
+
+.footermain-container {
+    padding: 50px 0;
+    background-color: #3b434c;
+}
+
+.footer-container {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.copyright {
+    width: 50%;
+    float: left;
+    color: #ffffff;
+}
+
+.coyright p {
+    font-size: 16px;
+
+
+}
+
+
+.design-by {
+    width: 50%;
+    float: left;
+}
+
+.design-by p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: right;
+
+}
+
+.design-by p span {
+    font-weight: bold;
+
+}
+
+/* this is footer part end */
+
+/* this is footer part end */
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
